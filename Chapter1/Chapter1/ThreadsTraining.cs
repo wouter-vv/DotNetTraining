@@ -9,16 +9,15 @@ namespace Chapter1
 {
     class ThreadsTraining
     {
-        static void Main(string[] args)
+
+        public void Distributer()
         {
 
-            ThreadsTraining t = new ThreadsTraining();
-            t.Distributer();
-        }
-
-        private void Distributer()
-        {
+            Console.WriteLine("Start Threads");
+            Console.ReadLine();
+            Console.WriteLine("Create");
             CreateThread();
+            Console.ReadLine();
         }
 
         private void CreateThread()
@@ -27,7 +26,7 @@ namespace Chapter1
             Thread.Sleep(2000);
         }
 
-        public void ThreadTest()
+        private void ThreadTest()
         {
             Console.WriteLine("Testerdetesttest");
             Thread.Sleep(2000);

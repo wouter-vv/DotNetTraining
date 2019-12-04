@@ -9,14 +9,6 @@ namespace Chapter1
 {
     class ParallelProgramming
     {
-        //int i = 0;
-        static void Main(string[] args)
-        {
-
-            ParallelProgramming p = new ParallelProgramming();
-            p.Distributer();
-        }
-
         public void Distributer() {
             Console.Write("Start");
             //Console.ReadLine();
@@ -89,7 +81,7 @@ namespace Chapter1
         /// <summary>
         /// 
         /// </summary>
-        public void ParallelFor ()
+        private void ParallelFor ()
         {
             var items = Enumerable.Range(0, 500).ToArray();
             Parallel.For(0, items.Length, i =>
@@ -137,18 +129,18 @@ namespace Chapter1
         /// 
         /// </summary>
         /// <param name="i"></param>
-        public void Task1(int i)
+        private void Task1(int i)
         {
             Console.WriteLine(i);
         }
 
         ///
-        public void Task2(int i)
+        private void Task2(int i)
         {
             Console.WriteLine(i);
         }
 
-        public static void DoChild(object state)
+        private static void DoChild(object state)
         {
             Console.WriteLine("Child {0} starting", state);
             Thread.Sleep(2000);
