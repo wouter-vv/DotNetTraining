@@ -1,0 +1,6 @@
+C:\Training\DotNetTraining\Chapter1\Chapter1\bin\Debug\Chapter1.exe.config
+C:\Training\DotNetTraining\Chapter1\Chapter1\bin\Debug\Chapter1.exe
+C:\Training\DotNetTraining\Chapter1\Chapter1\bin\Debug\Chapter1.pdb
+C:\Training\DotNetTraining\Chapter1\Chapter1\obj\Debug\Chapter1.csprojResolveAssemblyReference.cache
+C:\Training\DotNetTraining\Chapter1\Chapter1\obj\Debug\Chapter1.exe
+C:\Training\DotNetTraining\Chapter1\Chapter1\obj\Debug\Chapter1.pdb
