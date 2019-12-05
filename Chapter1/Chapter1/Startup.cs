@@ -16,6 +16,10 @@ namespace Chapter1
             
             ThreadsTraining t = new ThreadsTraining();
             t.Distributer();
+
+
+            BlockingCollection bc = new BlockingCollection();
+            bc.StartBlockingCollectionTest();
         }
     }
 }
