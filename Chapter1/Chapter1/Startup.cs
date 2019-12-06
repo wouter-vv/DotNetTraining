@@ -20,6 +20,9 @@ namespace Chapter1
 
             BlockingCollection bc = new BlockingCollection();
             bc.StartBlockingCollectionTest();
+
+            Events e = new Events();
+            e.EventsStart();
         }
     }
 }
