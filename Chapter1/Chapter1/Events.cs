@@ -5,26 +5,23 @@ namespace Chapter1
     class Alarm
     {
         // Delegate for the alarm event
-        public Action OnAlarmRaised { get; set; }
+        public event Action OnAlarmRaised = delegate { };
 
         // Called to raise an alarm
         public void RaiseAlarm()
         {
             // Only raise the alarm if someone has
             // subscribed. 
-            if (OnAlarmRaised != null)
-            {
-                OnAlarmRaised();
-            }
+            OnAlarmRaised?.Invoke();
         }
-    }
 
-    /// <summary>
-    /// Unsafe solution
-    /// </summary>
-    class Events
-    {
-        // Method that must run when the alarm is raised
+        public void AddListerners ()
+        {
+
+            // Connect the two listener methods
+            OnAlarmRaised += AlarmListener1;
+            OnAlarmRaised += AlarmListener2;
+        }
         static void AlarmListener1()
         {
             Console.WriteLine("Alarm listener 1 called");
@@ -36,14 +33,21 @@ namespace Chapter1
             Console.WriteLine("Alarm listener 2 called");
         }
 
+    }
+
+    /// <summary>
+    /// Unsafe solution
+    /// </summary>
+    class Events
+    {
+        // Method that must run when the alarm is raised
+        
         public void EventsStart()
         {
             // Create a new alarm
             Alarm alarm = new Alarm();
 
-            // Connect the two listener methods
-            alarm.OnAlarmRaised += AlarmListener1;
-            alarm.OnAlarmRaised += AlarmListener2;
+            alarm.AddListerners();
 
             // raise the alarm
             alarm.RaiseAlarm();
