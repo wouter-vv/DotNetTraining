@@ -10,8 +10,8 @@ namespace Chapter3
     {
         public void test()
         {
-            MusicTrack track = new MusicTrack(artist: "Rob Miles", title: "My Way",
-                                              length: 150);
+/* MusicTrack track = new MusicTrack(artist: "Rob Miles", title: "My Way",
+            length: 150);
             string json = JsonConvert.SerializeObject(track);
             Console.Write("JSON: ");
             Console.WriteLine(json);
@@ -44,7 +44,7 @@ namespace Chapter3
             {
                 Console.WriteLine(readTrack);
             }
-            Console.ReadKey();
+            Console.ReadKey();*/
 
         }
     }

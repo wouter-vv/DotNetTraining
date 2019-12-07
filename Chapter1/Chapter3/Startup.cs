@@ -14,6 +14,9 @@ namespace Chapter1
 
             CreateJSON cj = new CreateJSON();
 
+            KeyStorage ks = new KeyStorage();
+            ks.GetKeys();
+
         }
     }
 }
