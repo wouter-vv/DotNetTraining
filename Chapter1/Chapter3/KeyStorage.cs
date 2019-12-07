@@ -9,7 +9,7 @@ namespace Chapter3
 {
     class KeyStorage
     {
-        public void GetKeys()
+        public void GetKeysUser()
         {
             string containerName = "MyKeyStore";
 
@@ -26,6 +26,25 @@ namespace Chapter3
                                rsaLoad.ToXmlString(includePrivateParameters: true));
 
             Console.ReadKey();
+        }
+
+        public void GetKeysMachine()
+        {
+            CspParameters cspParams = new CspParameters();
+            cspParams.KeyContainerName = "Machine Level Key";
+
+            // Specify that the key is to be stored in the machine level key store
+            cspParams.Flags = CspProviderFlags.UseMachineKeyStore;
+
+            // Create a crypto service provider
+            RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(cspParams);
+
+            Console.WriteLine(rsa.ToXmlString(includePrivateParameters: false));
+
+            // Make sure that it is persisting keys
+            rsa.PersistKeyInCsp = true;
+            // Clear the provider to make sure it saves the key
+            rsa.Clear();
         }
     }
 }
