@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CreateJSON.cs" />
+    <Compile Include="Diagnostics.cs" />
     <Compile Include="KeyStorage.cs" />
     <Compile Include="MusicTrack.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
