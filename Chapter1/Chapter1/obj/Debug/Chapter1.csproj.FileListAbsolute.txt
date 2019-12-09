@@ -4,3 +4,10 @@ C:\Training\DotNetTraining\Chapter1\Chapter1\bin\Debug\Chapter1.pdb
 C:\Training\DotNetTraining\Chapter1\Chapter1\obj\Debug\Chapter1.csprojResolveAssemblyReference.cache
 C:\Training\DotNetTraining\Chapter1\Chapter1\obj\Debug\Chapter1.exe
 C:\Training\DotNetTraining\Chapter1\Chapter1\obj\Debug\Chapter1.pdb
+D:\Training\DotNetTraining\Chapter1\Chapter1\bin\Debug\Chapter1.exe.config
+D:\Training\DotNetTraining\Chapter1\Chapter1\bin\Debug\Chapter1.exe
+D:\Training\DotNetTraining\Chapter1\Chapter1\bin\Debug\Chapter1.pdb
+D:\Training\DotNetTraining\Chapter1\Chapter1\obj\Debug\Chapter1.csprojAssemblyReference.cache
+D:\Training\DotNetTraining\Chapter1\Chapter1\obj\Debug\Chapter1.csproj.CoreCompileInputs.cache
+D:\Training\DotNetTraining\Chapter1\Chapter1\obj\Debug\Chapter1.exe
+D:\Training\DotNetTraining\Chapter1\Chapter1\obj\Debug\Chapter1.pdb

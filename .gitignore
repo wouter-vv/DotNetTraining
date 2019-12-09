@@ -2,4 +2,15 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+<<<<<<< HEAD
 /Chapter1/Chapter1/bin/Debug/Chapter1.vshost.exe.manifest
+=======
+/Chapter1/.vs/Chapter1/v15
+/Chapter1/Chapter1/obj/Debug/Chapter1.csproj.CoreCompileInputs.cache
+/Chapter1/Chapter1/obj/Debug/Chapter1.csprojAssemblyReference.cache
+/Chapter1/packages/Newtonsoft.Json.12.0.3
+/Chapter1/Chapter3/obj/Debug
+/Chapter1/Chapter3/bin/Debug/Chapter3.exe.config
+/Chapter1/Chapter3/bin/Debug/Chapter3.exe
+/Chapter1/Chapter3/bin/Debug/Chapter3.pdb
+>>>>>>> 4ff52f6f707257ee66f8035c0631fdb417c425e9
