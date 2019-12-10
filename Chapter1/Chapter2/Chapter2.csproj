@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EnumeratorTest.cs" />
     <Compile Include="ExplicitInterface.cs" />
     <Compile Include="NewStruct.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
