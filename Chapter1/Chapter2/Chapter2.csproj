@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CodeDOMTest.cs" />
     <Compile Include="ExplicitInterface.cs" />
     <Compile Include="GarbageCollection.cs" />
     <Compile Include="NewStruct.cs" />
