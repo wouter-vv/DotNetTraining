@@ -18,6 +18,15 @@ namespace Chapter1
             NewStruct ns = new NewStruct();
             ns.create();
 
+            GarbageCollection gc = new GarbageCollection();
+            //gc.start();
+
+            Strings s = new Strings();
+            s.Start();
+
+            Console.ReadLine();
+
+
         }
     }
 }
