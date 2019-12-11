@@ -1,4 +1,4 @@
-﻿using Chapter3;
+﻿using Chapter4;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +12,12 @@ namespace Chapter1
         static void Main(string[] args)
         {
 
+            Drives drives = new Drives();
+            drives.GetDrivesInfo();
+            drives.SearchFile();
+
+
+            Console.ReadLine();
 
 
         }
