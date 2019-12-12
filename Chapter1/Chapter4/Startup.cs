@@ -16,6 +16,9 @@ namespace Chapter1
             drives.GetDrivesInfo();
             drives.SearchFile();
 
+            LinqTests lt = new LinqTests();
+            lt.init();
+
 
             Console.ReadLine();
 

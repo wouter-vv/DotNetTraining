@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Artist.cs" />
     <Compile Include="Drives.cs" />
+    <Compile Include="LinqTests.cs" />
+    <Compile Include="MusicTrack.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Streams.cs" />
